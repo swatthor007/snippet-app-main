@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Clipsy</string>
+    <string name="service_label">Clipsy</string>
+    <string name="service_description">Clipsy watches for your snippet keywords as you type and replaces them with the text or file you saved. It skips password fields and any apps you exclude, and nothing you type leaves your phone.</string>
+    <string name="widget_snippets_label">Clipsy snippets</string>
+    <string name="widget_snippets_description">Your most used, pinned or folder snippets. Tap one to copy it.</string>
+    <string name="widget_rack_label">Clipsy files</string>
+    <string name="widget_rack_description">A rack of your media and documents. Tap a file to copy it, then paste it anywhere.</string>
+</resources>

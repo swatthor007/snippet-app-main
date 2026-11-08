@@ -1,0 +1,14 @@
+*.iml
+# Android Studio settings are per machine; Gradle has everything the build needs.
+/.idea/
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Kotlin compiler caches
+.kotlin

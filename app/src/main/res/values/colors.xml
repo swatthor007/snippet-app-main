@@ -1,0 +1,9 @@
+<resources>
+    <color name="window_background">#FFF2F3F5</color>
+    <color name="widget_card">#FFFCFCFD</color>
+    <color name="widget_tile">#FFE9EBEF</color>
+    <color name="widget_tile_accent">#FFE4E9FA</color>
+    <color name="widget_text">#FF16181D</color>
+    <color name="widget_text_secondary">#FF5B606B</color>
+    <color name="widget_accent">#FF2548C9</color>
+</resources>

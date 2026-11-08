@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_preview_card"
+    android:orientation="vertical"
+    android:padding="12dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:gravity="center_vertical"
+        android:text="Files"
+        android:textColor="@color/widget_text"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/widget_preview_tile"
+                android:gravity="center"
+                android:text="PNG"
+                android:textColor="@color/widget_accent"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="Logo" android:textColor="@color/widget_text" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/widget_preview_tile"
+                android:gravity="center"
+                android:text="PDF"
+                android:textColor="@color/widget_accent"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="CV" android:textColor="@color/widget_text" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/widget_preview_tile"
+                android:gravity="center"
+                android:text="PDF"
+                android:textColor="@color/widget_accent"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="Invoice" android:textColor="@color/widget_text" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/widget_preview_tile"
+                android:gravity="center"
+                android:text="GIF"
+                android:textColor="@color/widget_accent"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="Meme" android:textColor="@color/widget_text" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/widget_preview_tile"
+                android:gravity="center"
+                android:text="DOCX"
+                android:textColor="@color/widget_accent"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="Notes" android:textColor="@color/widget_text" android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
